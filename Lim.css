@@ -1,0 +1,65 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+  padding: 6%
+}
+
+/* intestazione */
+img{
+  margin: auto;
+  width: 25%;
+}
+
+header, h1{
+  color: #00ff00;
+  text-align: center;
+}
+
+/* nav */
+nav{
+  background-color: #00ff00;
+  padding: 12px;
+  text-align: center;
+}
+
+/* contenuto principale */
+section, h2{
+  display: inline-block;
+  color: white;
+  margin-bottom: 5px;
+}
+
+h2:hover{
+  text-decoration: underline;
+}
+
+/* barre di caricamento */
+.loading {
+  border-radius: 7px;
+  height: 30px;
+  margin-top: 4px;
+}
+
+.loading.a{
+  background-color: #ffc281;
+  width: 40%;
+}
+
+.loading.b{
+  background-color: rgb(0,220,60);
+    width: 70%;
+}
+
+.loading.c{
+  background-color: rgb(255,0,60);
+    width: 20%;
+}
